@@ -1,0 +1,18 @@
+---
+name: EmoteFromEntity
+version: 1.0.0
+main: LadinoXx\EmoteFromEntity\Main
+api: 4.0.0
+commands:
+  setemoji:
+    description: "Aplicar emoji em uma entidade!"
+    permission: emoji.op
+  rmemoji:
+    description: "Remover emoji em uma entidade!"
+    permission: emoji.op
+
+permissions:
+  emoji.op:
+    description: "permissão op"
+    default: op
+...
